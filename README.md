@@ -1,6 +1,13 @@
 # myapp
 
-This is a Rails 8.0 app.
+This is a Rails 8.0 app. This was created using: https://github.com/mattbrictson/nextgen
+
+This was installed with the following options
+
+* Rails Version: 8
+* Database: Sqlite (We choose this because it doesn't require you to run Postgres or MySQL)
+* Style of Rails App: API Only
+* All other options left default
 
 ## Prerequisites
 
