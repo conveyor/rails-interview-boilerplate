@@ -14,6 +14,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 
 group :development, :test do
+  gem "rspec-rails"
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "rubocop-rails-omakase", require: false
 end
