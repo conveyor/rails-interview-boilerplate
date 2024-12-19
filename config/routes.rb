@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Define a route that maps to the MessagesController#index action
+  resources :messages, only: [:index, :create]
 end
